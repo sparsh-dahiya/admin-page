@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body style="background-color:#f8f9fa; padding-top:40px">
+
+    <div class="side-nav">
+        <div ><img src="a-logo.webp"></div>
+        <div class="container side-nav-container">
+            <div><img class="side-nav-images" src="home-logo.jpg"></div>
+            <div><img class="side-nav-images" src="envolope-logo.png"></div>
+            <div><img class="side-nav-images" src="calender-logo.webp"></div>
+            <div><img class="side-nav-images" src="graph-logo.jpg"></div>
+            <div><img class="side-nav-images" src="edit.logo.png"></div>
+            <div><img class="side-nav-images" src="paint-pallet-logo.avif"></div>
+            <div><img class="side-nav-images" src="doc.logo.jpg"></div>
+            <div><img class="side-nav-images" src="map.logo.jpg"></div>
+            <div><img class="side-nav-images" src="table.logo.jpg"></div>
+
+        </div>
+    </div>
+    <div class="top-nav">
+        <nav class="navbar navbar-expand-lg nav">
+            <div class="container-fluid">
+                <div class="nav-toggle">
+                    <div>
+                        <a class="navbar-brand" href="#"><img class="menu-logo" src="menu-logo.png"></a>
+                    </div>
+                    <div>
+                        <a class="nav-link active" aria-current="page" href="#"><img class="menu-logo"
+                                src="search-logo.jpg"></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="nav-toggle-info">
+                        <span class="badge text-bg-danger notification">3</span>
+                        <div><img class="bell-logo" src="bell-logo.jpg"></div>
+                        <span class="badge text-bg-danger notification1">3</span>
+                        <div><img class="envolope-logo" src="envolope-logo.png"></div>
+                        <div><img class="profile-image" src="random-image.jpg"></div>
+                        <div class="data-status">
+                            <p>John Doe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+   
+
+
+    <div class="container my-5 ">
+        <h4>Data Tables</h4>
+    </div>
+    <div class="container main">
+
+        <div class="container my-4 ">
+            <div>
+                <h4>Bootstrap Data Table</h4>
+            </div>
+            <div class="toggle">
+                <div class="data">
+                    <div>
+                        <p>Show</p>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            10
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">25</a></li>
+                            <li><a class="dropdown-item" href="#">50</a></li>
+                            <li><a class="dropdown-item" href="#">100</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Entries</p>
+                    </div>
+                </div>
+
+                <div class="search">
+                    <div>
+                        <p>Search :</p>
+                    </div>
+                    <div><input class="form-control me-2" type="search" aria-label="Search"></div>
+
+                </div>
+
+            </div>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>33</td>
+                        <td>2008/11/28</td>
+                        <td>$162,700</td>
+                    </tr>
+                    <tr>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer (CEO)</td>
+                        <td>London</td>
+                        <td>47</td>
+                        <td>2009/10/09</td>
+                        <td>$1,200,000</td>
+                    </tr>
+                    <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                    </tr>
+                    <tr>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>41</td>
+                        <td>2012/10/13</td>
+                        <td>$132,000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Brenden Wagner</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>28</td>
+                        <td>2011/06/07</td>
+                        <td>$206,850</td>
+                    </tr>
+                    <tr>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>New York</td>
+                        <td>61</td>
+                        <td>2012/12/02</td>
+                        <td>$372,000</td>
+                    </tr>
+                    <tr>
+                        <td>Bruno Nash</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>38</td>
+                        <td>2011/05/03</td>
+                        <td>$163,500</td>
+                    </tr>
+                    <tr>
+                        <td>Caesar Vance</td>
+                        <td>Pre-Sales Support</td>
+                        <td>New York</td>
+                        <td>21</td>
+                        <td>2011/12/12</td>
+                        <td>$106,450</td>
+                    </tr>
+                    <tr>
+                        <td>Cara Stevens</td>
+                        <td>Sales Assistant</td>
+                        <td>New York</td>
+                        <td>46</td>
+                        <td>2011/12/06</td>
+                        <td>$145,600</td>
+                    </tr>
+                    <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+
+                    </tr>
+
+                </tfoot>
+
+            </table>
+            <div class="table-control">
+                <div class="data-status">
+                    <p>Showing 1 to 10 of 57 entries</p>
+                </div>
+
+                <div class="toggle-pages">
+                    <div class="data-status">
+                        <p>Previous</p>
+                    </div>
+                    <div>
+
+
+                        <button class="page-toggle"><a class="btn" href="#" role="button">1</a></button>
+                        <button class="page-toggle"><a class="btn" href="#" role="button">2</a></button>
+                        <button class="page-toggle"><a class="btn" href="#" role="button">3</a></button>
+                        <button class="page-toggle"><a class="btn" href="#" role="button">4</a></button>
+                        <button class="page-toggle"><a class="btn" href="#" role="button">5</a></button>
+                        <button class="page-toggle"><a class="btn" href="#" role="button">6</a></button>
+                    </div>
+                    <div class="data-status">
+                        <p>Next</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <div class="footer">
+        <footer>
+            <span>Copyright © 2021 Designed by <a href="https://colorlib.com" target="_blank"
+                    title="Colorlib">Colorlib</a>. All rights reserved.</span>
+        </footer>
+    </div>
+</body>
+
+</html>
